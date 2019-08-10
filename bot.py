@@ -20,11 +20,6 @@ def msg():
        schedule.run_pending()
        for i in range(1):
            time.sleep(1)
-#time
-datetime.datetime.now()
-datetime.datetime(2015, 2, 18, 4, 53, 28, 394163)
-time = datetime.datetime.now()
-#time
 
 #клавіатура
 @bot.message_handler(commands=['start'])
