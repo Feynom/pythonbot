@@ -56,17 +56,6 @@ def start_message(message):
     elif message.text.lower() == 'привіт!':
         bot.send_message(message.chat.id, 'Привіт!\nЯк справи?')
         #відправка фотографій рандомних
-    elif message.text.lower() == '1 хвилин' or message.text.lower() == '1 хвилина':
-        bot.send_message(message.chat.id, 'Таймер запущено!')
-        for i in range(60):
-            time.sleep(1)
-        bot.send_message(message.chat.id, 'Час вийшов!')
-        for i in range(2):
-            time.sleep(1)
-        bot.send_message(message.chat.id, 'Час вийшов!')
-        for i in range(2):
-            time.sleep(1)
-        bot.send_message(message.chat.id, 'Час вийшов!')
     elif message.text.lower() == 'hello':
         bot.send_message(message.chat.id, 'Привіт!\nЯк справи?')
     elif message.text.lower() == 'hello!':
