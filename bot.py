@@ -316,7 +316,7 @@ def start_message(message):
         #відправка фотографій рандомних
         #відпарвка відео
     elif message.text.lower() == 'memes(video)':
-        directory = "C:/python/memes(videos)"
+        directory = "memes(videos)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         video = open(directory + '/' + random_file, 'rb')
@@ -326,7 +326,7 @@ def start_message(message):
         video.close()
         #відпарвка відео
     elif message.text.lower() == 'мем':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -334,7 +334,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемасики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -342,7 +342,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемчики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -350,7 +350,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемачики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -358,7 +358,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемусики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -366,7 +366,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемусікі':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -374,7 +374,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемусіки':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -382,7 +382,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемусикі':
-            directory = "C:/python/memes(images)"
+            directory = "memes(images)"
             all_files_in_directory = os.listdir(directory)
             random_file = random.choice(all_files_in_directory)
             img = open(directory + '/' + random_file, 'rb')
@@ -390,7 +390,7 @@ def start_message(message):
             bot.send_photo(message.from_user.id, img)
             img.close()
     elif message.text.lower() == 'меми':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -398,7 +398,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'потрібні меми':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -406,7 +406,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'потрібні мемасики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -414,7 +414,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'потрібні мемасики негайно':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -422,7 +422,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'негайно мемасики':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -430,7 +430,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'мемасики негайно':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -438,7 +438,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'негайно меми':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -446,7 +446,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'меми негайно':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
@@ -454,7 +454,7 @@ def start_message(message):
         bot.send_photo(message.from_user.id, img)
         img.close()
     elif message.text.lower() == 'хочу мем':
-        directory = "C:/python/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
