@@ -306,7 +306,7 @@ def start_message(message):
         bot.send_message(message.chat.id, 'Вологість:' + str(humidity) + '%')
         #weather
     elif message.text.lower() == 'memes(images)':
-        directory = "/pythonbot/memes(images)"
+        directory = "memes(images)"
         all_files_in_directory = os.listdir(directory)
         random_file = random.choice(all_files_in_directory)
         img = open(directory + '/' + random_file, 'rb')
